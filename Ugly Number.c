@@ -37,3 +37,9 @@ int getUglyNum(int n){
    }
    return next;
 }
+int main(){
+   int n;
+   scanf("%d",&n);
+   printf("%d",getUglyNum(n));
+}
+
