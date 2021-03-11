@@ -20,4 +20,23 @@ int main(){
         }
         printf("\n");
         if(y>=1) c++;
-}
+   }
+   c=c-2;
+    if(n%2==0){
+      x=0, l=0, r=0;
+        for(;y<n;y++,l++,r++,c--){
+        for(x=0;x<l;x++){
+            printf("-");
+        }
+        printf("*");
+        for(x=0; x<c; x++){
+            printf("-");
+        }
+         if(y!=n-1)printf("*");
+        for(x=0;x<r;x++){
+            printf("-");
+        }
+        printf("\n");
+        if(y!=n-2) c--;
+        }
+    }
