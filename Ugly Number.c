@@ -35,3 +35,5 @@ int getUglyNum(int n){
          next5mul = uglyNum[i5]*5;
       }
    }
+   return next;
+}
