@@ -18,4 +18,6 @@ int main(){
         for(x=0;x<r;x++){
             printf("-");
         }
+        printf("\n");
+        if(y>=1) c++;
 }
