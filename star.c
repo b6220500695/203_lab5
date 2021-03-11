@@ -13,4 +13,9 @@ int main(){
          printf("*");
          for(x=0; x<c; x++){
             printf("-");
+         }
+         if(y!=0)printf("*");
+        for(x=0;x<r;x++){
+            printf("-");
+        }
 }
