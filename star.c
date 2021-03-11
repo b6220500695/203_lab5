@@ -6,4 +6,9 @@ int main(){
    if(n%2==0) nx=n-1;
    l = ceil(n/2.f)-1;
    r = l;
+   for(y=0;y<=ceil(n/2.f)-1;y++,l--,r--,c++){
+         for(x=0;x<l;x++){
+            printf("-");
+         }
+
 }
