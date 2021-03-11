@@ -1,5 +1,6 @@
 #include<stdio.h>
 int min(int x, int y, int z){
+   if(x<y){
       if(x < z)
          return x;
       else
@@ -11,6 +12,7 @@ int min(int x, int y, int z){
       else
          return z;
    }
+}
 int getUglyNum(int n){
    int uglyNum[n];
    int i2 = 0, i3 = 0, i5 = 0;
