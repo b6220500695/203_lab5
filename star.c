@@ -10,5 +10,7 @@ int main(){
          for(x=0;x<l;x++){
             printf("-");
          }
-
+         printf("*");
+         for(x=0; x<c; x++){
+            printf("-");
 }
