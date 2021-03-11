@@ -40,3 +40,13 @@ int main(){
         if(y!=n-2) c--;
         }
     }
+    else if(n%2!=0){
+        c=c-2, l=1, r=1;
+        for(;y<n;y++,l++,r++,c--){
+        for(x=0;x<l;x++){
+            printf("-");
+        }
+        printf("*");
+        for(x=0; x<c; x++){
+            printf("-");
+        }
