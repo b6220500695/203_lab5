@@ -50,3 +50,12 @@ int main(){
         for(x=0; x<c; x++){
             printf("-");
         }
+        if(y!=n-1)printf("*");
+        for(x=0;x<r;x++){
+            printf("-");
+        }
+        printf("\n");
+        if(y!=n-2) c--;
+        }
+    }
+}
